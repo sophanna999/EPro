@@ -1,0 +1,805 @@
+body{
+	background: #f1f1f1;
+}
+.bg1{
+	background: url(../img/bg1.jpg) no-repeat #f1f1f1;
+	background-position: center bottom;
+	background-size: cover;	
+}
+.btn-cal-telno{
+    font:300 20px/34px Kanit, Tahoma;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.buycredit .form-group{
+	margin-bottom: 5px;
+	input[type='radio']{
+		margin-right: 5px;
+	}
+}
+.payment{
+	.checkbox-inline{
+		input[type='radio']{
+			margin-right: 5px;
+		}
+		img{
+			margin-right: 5px;
+		}
+	}
+}
+.bg-head{
+	background: url(../img/bg-head.jpg) no-repeat;
+	background-size: cover;
+	height: 572px;
+}
+.btn-viewdetail,
+.btn-chooseplan{
+	max-width: 250px;
+	margin: 0 auto;
+}
+a.btn-chooseplan:hover,
+.btn-primary:hover{
+	background: $color_orange_dark !important;
+}
+.desc-img{
+	display: block;
+	text-align: center;
+	margin-top:5px;
+	font-style: italic;
+	color: #999;
+}
+.article-title{
+	font:300 24px/26px 'Kanit', sans-serif;
+	color: $color_blue_1;
+	border-bottom: 1px solid #eaeaea;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	.date{
+		font-size: 14px;
+		font-style: italic;
+		color: #999;
+	}
+}
+.navwrapper{
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.intro img{
+	max-width: 100%;
+}
+.ptb10{
+	padding-top:10px;
+}
+.topnav{
+	margin-bottom: 0;
+	.nav{
+		li.active a,
+		li a:hover{
+			//background-color: $color_primary !important;
+		}
+	}
+}
+.course{
+	.course-desc{
+		font: normal 11px/18px Tahoma;
+		color: #999;
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 10px;
+		height: auto;
+	}
+	.readmore{
+		font-size: 12px;
+		text-align: right;
+		display: block;
+	}
+}
+.course-head{
+	margin-bottom: 20px;
+	i{
+		font-size: 24px;
+		position: relative;
+		top: 3px;
+		margin-right: 8px;
+		color: #fff;
+	}
+	span{
+		color: $color_primary;
+		font: 100 20px/24px Kanit, Tahoma;
+	}
+}
+.bg{
+	/*background: url(../img/blackboard.jpg) no-repeat bottom center;*/
+	/*background-size: cover;*/
+}
+.course-wrapper{
+	margin-top: 40px;
+}
+.topnav .navbar-nav .nav-item{ 
+	margin-left: 15px; 
+}
+.topnav .navbar-nav .nav-item a{
+	color: #666 !important;
+	font: 300 12px/18px 'Kanit', Tahoma;
+	outline: 0px;
+	padding: 5px 5px;
+	border-right: 1px solid rgba(255, 255, 255, 0.3);
+	.fa{
+		margin-right: 5px;
+		color: $color_blue_1;
+	}
+}
+.z99{
+	position: relative;
+	z-index: 99;
+}
+.text-blue{
+	color: $color_blue_1 !important;
+}
+.edit-profile{
+	display: inline-block;
+	margin-left: 5px;
+	i{
+		margin-right: 3px;
+	}
+}
+.rating-group{
+    position: relative;
+    top: 6px;
+    left: 15px;
+}
+.text-white{
+	color: #fff !important;
+}
+.head-desc{
+	display: block;
+	font-size: 12px;
+	color: $color_grey;
+	margin-top: -10px;
+}
+.bluebox{
+	padding: 20px 40px;
+	box-sizing: border-box;
+	margin: 20px;
+	margin-top: 137px;
+	position: relative;
+	left: 20px;
+	margin-right: 80px;
+	height: 380px;
+	background: $color_bluebox;
+	text-align: left;
+	.h1{
+		padding: 0;
+		margin: 0;
+		color: $color_yellow;
+		font: 100 20px/28px 'Kanit', Tahoma;
+	}
+	.howto-list{
+		list-style: none;
+		margin-top: 10px;
+		padding: 0;
+		li{
+			padding-left: 35px;
+			margin-top: 10px;
+			background: url(../img/icon-check-green.png) 0px 0px no-repeat;
+		}
+		li::after{
+			content: "";
+			display: block;
+			border-top: 2px solid rgba(255, 255, 255, 0.4);
+			width: 60%;
+			margin-top: 10px;
+		}
+	}
+	.btn-getquote{
+		background-color: $color-orange-light !important;
+		margin-top: 0px;
+		padding: 10px 25px;
+		margin-left: 35px;
+	}
+	.textstyle1{
+		font: 300 24px/32px 'Kanit', Tahoma;
+		color: #333;
+	}
+	.textstyle2{
+		display: block;
+		font-size: 14px;
+		color: #333;
+	}
+}
+.topnav .navbar-nav .nav-item.active a{
+	background-color: $color_blue_1 !important;
+	color: #fff !important;
+}
+.bgnav{
+	background-color: rgba(255, 255, 255, 0.85);
+	border-bottom: 1px solid #ccc;
+	height: 50px;
+}
+.nav-footer{
+	font-size: 11px;
+	a{
+	font-weight: 500;
+		color: $color_blue_1 !important;
+	}
+}
+.row-action{
+	margin: 30px 0;
+}
+.action-item{
+	margin-bottom: 15px;
+	img{
+		max-width: 100%;
+	}
+}
+.navbar-default .navbar-toggle{
+	background-color: #fff;
+	.icon-bar{
+		background-color: $color_primary;
+	}
+}
+.navbar-default{
+	background-color: transparent;
+}
+.intro{
+	font: 300 36px/38px Kanit, Tahoma;
+	color: $color_primary;
+	margin-bottom: 30px;
+}
+.intro-header{
+	margin-top:-50px;
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.subscribe-box{
+	margin-top: -15px;
+	.icon-sub{
+		padding-right: 0px;
+		top: 0;
+		text-align: center;
+		padding: 0;
+		img{
+			max-width: 100%;
+		}
+	}
+	.icon-text{
+		margin-left: 5px;
+		text-align: center;
+		padding: 0;
+		box-sizing: border-box;
+		strong{
+			font: 300 30px/40px 'Kanit', Tahoma;
+			color: $color_blue_1;
+		}
+		span{
+			display: block;
+			font-size: 14px;
+			line-height: 18px;
+			color: $color_grey;
+		}
+	}
+	.row-tb-subscribe{
+		margin-top: 15px;
+		.col-xs-12{
+			padding: 0;
+		}
+	}
+	.tb-subscribe{
+		font-size: 14px;
+		line-height: 28px;
+		padding-left: 15px;
+		width:180px;
+		vertical-align: top;
+	}
+	.tb-btn{
+		background-color: $color_orange_light;		
+		vertical-align: top;
+		border:1px solid #ccc;
+		color: #fff;
+		padding-left: 15px;
+		padding-right: 15px;
+		line-height: 28px;
+	}
+}
+.intro-desc{
+	font: 300 22px/30px Kanit, Tahoma;
+	margin-bottom: 40px;
+	color: #fff;
+	-webkit-text-shadow: 0px 0px 5px #000;
+	-moz-text-shadow: 0px 0px 5px #000;
+	-ms-text-shadow: 0px 0px 5px #000;
+	-o-text-shadow: 0px 0px 5px #000;
+	text-shadow: 0px 0px 5px #000;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.concept-head{
+	display: block;
+	margin-top: 20px;
+	color: $text_light_blue;
+	font: 300 24px/30px Kanit, Tahoma;
+}
+.concept-desc{
+	font: 300 20px/30px Kanit, Tahoma;
+	margin-top: 10px;
+	color: $color_grey;
+}
+.search{
+	border:1px solid #ccc;
+	border-left:6px solid $color_yellow;
+	font:300 18px/20px Kanit, Tahoma;
+	padding: 10px 10px 10px 20px;
+	width: 400px;
+	max-width: 100%;
+	outline: 0px;
+}
+.concept-row{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.logo {
+	padding-top:50px;
+	padding-bottom:150px;
+	img{
+		width: auto;
+	}
+	.logo-desc{
+		border:0px;
+	}
+}
+
+.course-action{
+	border-top: 1px solid $color_grey;
+	margin-top: 5px;
+	padding-top: 5px;
+	&:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
+.facebookiframe{
+	iframe{
+		max-width: 100%;
+	}
+}
+.course-price{
+	font-family: Kanit, Tahoma;
+}
+.old-price{
+	color: $color_red;
+	text-decoration: line-through;
+	margin-right: 5px;
+	font-size: 18px;
+}
+.new-price{
+	font-size: 26px;
+}
+
+.btn-action-1,
+.btn-action-2{
+	border-radius: 0px;
+	color: #fff !important; 
+	font: 300 18px/20px Kanit, Tahoma;
+	padding: 8px 15px;
+	i{
+		margin-right: 5px;
+	}
+}
+.btn-action-1{
+	background-color: $color_grey;
+}
+.btn-action-2{
+	background-color: $color_green;
+}
+.course .course-title{
+	font-weight: 300;
+	color: #333;
+	display: block;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	margin: 10px 0 0 0;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	font-size: 14px;
+	line-height: 18px;
+	.date{
+		font-size: 12px;
+		font-style:italic;
+		color: $color_grey;
+	}
+	&:after{
+		display: none;
+	}
+}
+.norti {
+	@include norti(22px);
+}
+.norti-primary{
+	@extend .norti;
+	border: 1px solid $color_norti;
+	-webkit-box-shadow: inset 1px 1px 0px rgba(255,255,255,0.40);
+	box-shadow: inset 1px 1px 0px rgba(255,255,255,0.40);
+	background: $color_norti;
+	color: #fff;
+}
+.intro h4 {
+    font: 300 34px/28px 'Kanit', Tahoma;
+    color: #ffba00;
+}
+.ask{
+	color: $color_blue_1;
+}
+.step-list{
+	.service-title{
+		font-size: 14px;
+		padding:0;
+		line-height: 14px;
+		background: none;
+		color: $color_blue_1;
+		font-weight: 500;
+	}
+}
+.form-horizontal .control-label{
+	/*color: #fff;*/
+}
+p.copyright{
+	margin-top: 0px;
+	font-size: 12px;
+	color: $color_blue_1 !important;
+}
+.pre-footer{
+	background-image: url(../img/footer-bg.jpg);
+	background-color: $color_blue_1;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	color: #fff !important;
+	margin-top: 0;
+}
+footer{
+	padding: 25px 0;
+	background-color: #fff;
+}
+.searchwrapper{
+	position: relative;
+}
+.searchbtn{
+	background-color: #fff;
+	border:1px solid #ccc;
+	border-left: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-left: -1px;
+	position: relative;
+	top: 3px;
+	outline: 0px;
+	i{
+		font-size: 28px;
+		line-height: 35px;
+		color: $color_primary;
+	}
+}
+.quickhead{
+	font:300 18px/20px Kanit, Tahoma;
+}
+.quicklink{
+	margin-top: 10px;
+	li{
+		line-height: 28px;
+	}
+	a{
+		color: #fff;
+		text-decoration: underline;
+	}
+}
+.logo-mobile{
+	display: none;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border-color: transparent;
+}
+.myaccount-menu{
+    list-style: none;
+    font: 300 18px/28px Kanit, Tahoma;
+    margin-bottom: 40px;
+    li i{
+    	width: 25px;
+    }
+}
+.profile-box{
+	.row{
+		line-height: 30px;
+	}
+}
+.content-head h4{
+	font-family: Kanit, Tahoma;
+}
+.purchase-list{
+	list-style: none;
+	a{
+		font: normal 16px/18px Kanit, Tahoma;
+	}
+	.date{
+		display:block;
+		margin-top: 10px;
+		color: #666;
+	}
+	li{
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 15px;
+		margin-bottom: 15px;
+	}
+}
+.btn-gotocourse{
+}
+
+/* menu admin */
+.myaccount-menu{
+    background-color: #fff;
+    padding:20px;
+    border-radius: 4px;
+    border:1px solid #ccc;
+    border-top-width:4px;
+    li{
+    	border-bottom: 1px dashed #ccc;
+    	padding-bottom: 5px;
+    	padding-top: 5px;
+    }
+}
+.adminbar{
+	border-bottom:3px solid $color_primary;
+	.admin-topmenu{
+		.fa{
+			margin-right: 10px;
+		}
+		.btn{
+			font-size: 18px;
+			font-family: Kanit, Tahoma;
+			border-left: 1px solid #ccc;
+		}
+	}
+	.admin-name{
+		font-size: 18px;
+		font-family: Kanit, Tahoma;
+	}
+	.text-topmenu{
+
+	}
+}
+.course-detail{
+	.bg{
+		background-position: top;
+	}
+}
+.course-h4{
+	color: $color_primary;
+	font: normal 18px/20px Kanit, Tahoma;
+}
+.course-para{
+	padding-top:15px;
+	color: #fff;
+	box-sizing: border-box;
+	padding: 30px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+	background-color: rgba(5,33,44,0.75);
+	p{
+		margin-bottom: 30px;
+	}
+}
+.course-divide{
+	border-bottom: 1px solid #ccc;
+	padding: 15px 0;
+	margin-bottom: 20px;
+}
+.course-list{
+	list-style:none;
+	margin:0; padding:0;
+}
+.course-list > li{
+	margin-bottom: 25px;
+}
+.course-list > li > .course-title{
+	display:block;
+	background: #eaeaea;
+	box-sizing: border-box;
+	padding: 10px 15px;
+	font:300 16px/18px Kanit, Tahoma;
+	margin-bottom: 5px;
+}
+.course-sub{
+	list-style:none;
+	margin-top: 10px;
+	> li{
+		margin-bottom: 15px;
+	}
+}
+.course-head .btn .fa{
+	top: 0px;
+	font-size: 18px;
+}
+.cart video{
+	display: none;
+}
+.btn-circle{
+	-webkit-border-radius: 50px !important;
+	-moz-border-radius: 50px !important;
+	-ms-border-radius: 50px !important;
+	-o-border-radius: 50px !important;
+	border-radius: 50px !important;
+}
+.table .pad{
+	display: inline-block;
+	padding-top: 7px;
+}
+.checkout-row{
+	margin-top: 25px;
+}
+.table.table-cart{
+	tfoot
+		th{
+			padding-top:15px;
+			font-size: 18px;
+		}
+}
+.sample-video{
+	max-width: 100%;
+}
+ul.nav.nav-learning {
+   font-size: 14px;
+   margin-top: 20px;
+}
+.btn-course-cancel{
+	background: #d43f3a;
+	color: #fff;
+}
+.btn-course-confirm:hover{
+	color: #fff;
+}
+.btn-course-confirm{
+	margin-left: 5px;
+	background: #5cb85c;
+	color: #fff;
+}
+.head-sub{
+	font-family: Kanit, Tahoma;
+	color: $color_primary;
+	font-size: 16px;
+}
+.color_activity{
+	color: $color_activity !important;
+}
+.color_news{
+	color: $color_news !important;
+}
+.color_exp{
+	color: $color_exp !important;
+}
+.color_amulet{
+	color: $color_amulet !important;
+}
+.list-news{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	li:last-child{
+		border:0px;
+	}
+	li{
+		border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+		padding:8px 0;
+		a{
+			color: #fff;
+			font-size: 12px;
+		}
+	}
+}
+.telno-wrapper {
+    display:inline-block;
+    width:70px;
+    margin-left: 10px;
+}
+.telno-name-row {
+	.telno{
+		font-size: 24px;
+		line-height: 60px;
+	}
+}
+.table-small-thead thead tr th{
+	font-size: 12px;
+}
+.basic-table tr td,
+.basic-table thead tr th{
+	background-color: #fff;
+}
+.text-red{
+	color: $color_red;
+}
+h4.label{
+	font-weight: 700;
+	font-size: 14px;
+	color: #666;
+}
+.divide-line{
+	border-bottom: 1px solid $color_grey_2;
+	@extend .mb-xs;
+}
+.telno{
+    width: 100%;
+    border-radius: 15px;
+    line-height: 80px;
+    border: 2px solid #fff;
+    box-shadow:inset 0px 0px 30px rgba(0,0,0,0.3);
+    text-align:center;
+    font-size: 40px;
+    outline: 0px;
+}
+.ml-no{
+	margin-left: 0px !important;
+}
+.telno-wrapper.dashed {
+    color: #fff;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 0px;
+	margin-left: 0px !important;
+}
+.cal-telno-intro{
+	color: #fff;
+	font-size: 20px;
+	padding-bottom: 20px;
+	-webkit-text-shadow: 0px 0px 5px #000;
+	-moz-text-shadow: 0px 0px 5px #000;
+	-ms-text-shadow: 0px 0px 5px #000;
+	-o-text-shadow: 0px 0px 5px #000;
+	text-shadow: 0px 0px 5px #000;
+	font-weight: 300;
+	font-family: Kanit, Tahoma;
+}
+.view-detail-img img{
+	max-width: 100%;
+}
+
+/* customer dashboard */
+.username{
+	display:block;
+	color: $color_blue_1;
+	padding:10px 0 0 0;
+}
+.avatar-img{
+	border: 2px solid $color_blue_1;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	-ms-border-radius: 150px;
+	-o-border-radius: 150px;
+	border-radius: 150px;
+	max-width: 150px;
+}
+.user-nav{
+	background-color: #fff;
+	margin: 0;
+	padding: 10px;
+	list-style: none;
+	border:2px solid $color_blue_1;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	margin-bottom: 15px;
+	i{
+		color: #999;
+		margin-right: 5px;
+	}
+	a{
+		color: $color_blue_1;
+	}
+	li{
+		border-bottom: 1px solid #eaeaea;
+		padding: 10px 0;
+	}
+}

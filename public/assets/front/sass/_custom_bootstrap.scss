@@ -1,0 +1,16 @@
+.modal-title {
+    font-family: Kanit, Tahoma;
+}
+.btn{
+    border-radius: 0px;
+}
+.btn-primary{
+	background: $color_green;
+	border: $color_green;
+	&:hover,
+	&:active,
+	&:focus{
+		background: $color_green_dark;
+		border: $color_green_dark;
+	}
+}
